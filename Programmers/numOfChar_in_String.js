@@ -13,8 +13,8 @@ s에 'p'의 개수와 'y'의 개수를 비교해 같으면 True, 다르면 False
 
 function solution(s) {
   let strArr = s.split("");
-  let pArr = strArr.filter((e) => e === "p");
-  let yArr = strArr.filter((e) => e === "y");
+  let pArr = strArr.filter((e) => e === "p" || e === "P");
+  let yArr = strArr.filter((e) => e === "y" || e === "Y");
 
   return pArr.length === yArr.length;
 }
