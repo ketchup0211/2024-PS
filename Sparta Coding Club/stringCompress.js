@@ -19,7 +19,7 @@ let solution = (str) => {
 
   for (let i = 0; i < 27; i++) {
     if (charCount[i] !== 0) {
-      console.log(String.fromCharCode(i + 97), charCount[i]);
+      console.log(String.fromCharCode(i + 97) + charCount[i]);
     }
   }
 };
