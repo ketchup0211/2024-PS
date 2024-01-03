@@ -19,6 +19,9 @@ let solution = (str) => {
 
   for (let i = 0; i < 27; i++) {
     if (charCount[i] !== 0) {
+      if (i !== 0) {
+        console.log("/");
+      }
       console.log(String.fromCharCode(i + 97) + charCount[i]);
     }
   }
