@@ -1,4 +1,4 @@
-// Programmers 문자열을 정수로 바꾸기
+// Programmers 자연수 뒤집어 배열로 만들기
 function solution(s) {
   const numbers = {
     0: 0,
