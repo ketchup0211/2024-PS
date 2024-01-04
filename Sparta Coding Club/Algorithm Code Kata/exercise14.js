@@ -1,4 +1,4 @@
-// Programmers 두 수의 차
+// Programmers 약수의 합
 function solution(n) {
   let divisors = new Array();
   let divSum = 0;
