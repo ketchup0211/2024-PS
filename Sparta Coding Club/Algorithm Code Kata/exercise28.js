@@ -21,6 +21,9 @@ function solution(numbers) {
   });
 
   // numCnt가 0인 요소들을 filter하여 더함.
-  numCnt.filter((key) => (sum += numCnt[key] === 0 ? key : 0));
+  for (let i = 0; i < 10; i++) {
+    sum += !numCnt[i] ? i : 0;
+  }
+
   return sum;
 }
