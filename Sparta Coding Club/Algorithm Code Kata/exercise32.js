@@ -18,3 +18,5 @@ function solution(a, b) {
     return res;
   }
 }
+
+// try-catch문 연습
