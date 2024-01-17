@@ -7,10 +7,6 @@ function solution(sizes) {
   sizes.forEach(([w, h]) => {
     fix1 = w > fix1 ? (w > h ? w : h) : h > fix1 ? h : fix1;
     fix2 = w > fix1 ? (w > h ? h : w) : h > fix1 ? w : fix2;
-  });
-
-  //    find fix2
-  sizes.forEach(([w, h]) => {
     if (w > fix2 && h > fix2) {
       fix2 = w > h ? h : w;
     }
